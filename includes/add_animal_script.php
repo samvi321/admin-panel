@@ -1,6 +1,6 @@
 <?php
-    session_start();
     require 'connect.php';
+    include 'security.php';
     if(isset($_POST['addbtn']))
     {
         $species = $_POST['add_species'];

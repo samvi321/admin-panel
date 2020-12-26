@@ -1,6 +1,6 @@
 <?php
-    session_start();
     require 'connect.php';
+    include 'security.php';
     if(isset($_POST['login'])) {
         $user =  $_POST['user'];
         $password = mysqli_real_escape_string($conn, md5($_POST['password']));

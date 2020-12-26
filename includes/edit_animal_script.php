@@ -1,6 +1,6 @@
 <?php
-    session_start();
-    require 'connect.php';
+   require 'connect.php';
+   include 'security.php';
     if(isset($_POST['updatebtn']))
     {
         $id = $_POST['edit_id'];

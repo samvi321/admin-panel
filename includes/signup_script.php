@@ -1,6 +1,6 @@
 <?php
-    session_start();
     require 'connect.php';
+    include 'security.php';
     if(isset($_POST['signup'])){
         $fname = mysqli_real_escape_string($conn,$_POST['fname']);
         $lname = mysqli_real_escape_string($conn,$_POST['lname']);
