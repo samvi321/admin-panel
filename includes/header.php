@@ -13,7 +13,7 @@
         <title>Wild World</title>
     </head>
     <body>
-<nav class="navbar navbars navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbars navbar-expand-lg navbar-dark bg-dark sticky-top">
     <?php
         if(isset($_SESSION['email'])){
     ?>
@@ -34,11 +34,18 @@
         <?php
             if(isset($_SESSION['email'])){
         ?>
-                <li class="nav-item"><a href="../pages/admin.php" class="nav-link">Admin</a></li>
-                <li class="nav-item"><a href="../pages/animal.php" class="nav-link">Animal</a></li>
-                <li class="nav-item"><a href="../pages/plantation.php" class="nav-link">Plantation</a></li>
-                <li class="nav-item"><a href="../pages/volunteer.php" class="nav-link">Volunteers</a></li>
-                <li class="nav-item"><a href="../pages/ambulance.php" class="nav-link">Ambulance</a></li>
+                <li class="nav-item dropdown bg-dark">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Panels
+                  </a>
+                  <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../pages/admin.php">Admin</a>
+                    <a class="dropdown-item" href="../pages/animal.php">Animal</a>
+                    <a class="dropdown-item" href="../pages/plantation.php">Plantation</a>
+                    <a class="dropdown-item" href="../pages/volunteer.php#">Volunteers</a>
+                    <a class="dropdown-item" href="../pages/ambulance.php">Ambulance</a>
+                  </div>
+                </li>
                 <li class="nav-item"><a href="../pages/logout.php" class="nav-link active">Logout</a></li>
         <?php
             } 
