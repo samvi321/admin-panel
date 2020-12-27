@@ -39,7 +39,6 @@
                 <li class="nav-item"><a href="../pages/plantation.php" class="nav-link">Plantation</a></li>
                 <li class="nav-item"><a href="../pages/volunteer.php" class="nav-link">Volunteers</a></li>
                 <li class="nav-item"><a href="../pages/ambulance.php" class="nav-link">Ambulance</a></li>
-                <li class="nav-item"><a href="../pages/logout.php" class="nav-link">Carousal</a></li>
                 <li class="nav-item"><a href="../pages/logout.php" class="nav-link active">Logout</a></li>
         <?php
             } 
