@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="icon" type="image/png" href="../assets/uploads/watch.jpg" />
         <title>Wild World</title>
     </head>
     <body>
@@ -38,7 +39,7 @@
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                    Panels
                   </a>
-                  <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu animates slideIn bg-dark" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="../pages/admin.php">Admin</a>
                     <a class="dropdown-item" href="../pages/animal.php">Animal</a>
                     <a class="dropdown-item" href="../pages/plantation.php">Plantation</a>
