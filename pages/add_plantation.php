@@ -18,7 +18,7 @@
                                     <input type="text" name="add_species" class="form-control" id="species" placeholder="Species" required>
                                 </div><br>
                                 <div class="form-group">
-                                    <label for="description">description</label>
+                                    <label for="description">Description</label>
                                     <input type="text" name="add_description" class="form-control" id="description" placeholder="Description" required>
                                 </div><br>
                                 <div class="form-group">

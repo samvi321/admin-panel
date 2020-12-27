@@ -28,7 +28,7 @@
                                     <input type="text" name="add_streetORwild" class="form-control" id="streetORwild" placeholder="Street/Wild" required>
                                 </div><br>
                                 <div class="form-group">
-                                    <label for="description">description</label>
+                                    <label for="description">Description</label>
                                     <input type="text" name="add_description" class="form-control" id="description" placeholder="Description" required>
                                 </div><br>
                                 <div class="row">
