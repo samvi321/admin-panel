@@ -6,6 +6,7 @@
     }
             include '../includes/header.php';
         ?>
+        <div class="container-fluid">
         <div class="row justify-content-center my-4">
             <div class="col-lg-5 mb-4">
                 <div class="card-wrapper mb-4">
@@ -70,6 +71,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <?php
             include '../includes/footer.php';

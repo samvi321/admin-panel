@@ -1,5 +1,6 @@
 
         <?php    
+            include '../includes/security.php';
             include '../includes/header.php'; 
         ?>
         <div class="container-fluid background">
