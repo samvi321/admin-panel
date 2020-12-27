@@ -7,7 +7,7 @@
             include '../includes/header.php';
         ?>
         <div class="row justify-content-center">
-            <div class="col-lg-5">
+            <div class="col-lg-5 my-4">
                 <div class="card-wrapper mb-4">
                     <div class="light-card bg-light" style="width:32rem; height:32rem;">
                         <div class="card-header text-center" style="height: 100px; font-size: 40px;">Edit Admin Profile</div>
