@@ -47,10 +47,10 @@
                                 </div><br>
                                 <div class="row">
                                     <div class="col">           
-                                        <a href="animal.php" class="btn btn-danger mr-4">CANCEL</a>
+                                        <a href="animal.php" class="btn shadow mr-4">CANCEL</a>
                                     </div>
                                     <div class="col">
-                                        <button class="btn btn-primary" type="submit" id="upload" name="addbtn">ADD</button>
+                                        <button class="btn shadow" type="submit" id="upload" name="addbtn">ADD</button>
                                     </div>
                                 </div>
                             </form>

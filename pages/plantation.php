@@ -12,7 +12,7 @@
             <div class="card mb-4">
                 <div class="card-header"><h2>Plantations Table</h2>
                     <form action="add_plantation.php" method="post" enctype="multipart/form-data">
-                        <button type="submit" name="add_btn" class="btn btn-info">ADD</button>
+                        <button type="submit" name="add_btn" class="btn shadow">ADD</button>
                     </form>
                 </div>
                 <div class="card-body">
@@ -41,13 +41,13 @@
                                     <td>
                                         <form action="edit_plantation.php" method="post">
                                         <input type="hidden" name="edit_id" value="<?php echo $row['id']; ?>">
-                                        <button type="submit" name="edit_btn" class="btn btn-success">EDIT</button>
+                                        <button type="submit" name="edit_btn" class="btn shadow">EDIT</button>
                                     </form>
                                     </td>
                                     <td>
                                         <form action="../includes/delete_plantation.php" method="post">
                                         <input type="hidden" name="delete_id" value="<?php echo $row['id']; ?>">
-                                        <button type="submit" name="deletebtn" class="btn btn-danger">DELETE</button>
+                                        <button type="submit" name="deletebtn" class="btn shadow">DELETE</button>
                                         </form>
                                     </td>
                                 </tr>
