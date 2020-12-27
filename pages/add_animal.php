@@ -6,10 +6,10 @@
     }
             include '../includes/header.php';
         ?>
-        <div class="row justify-content-center">
-            <div class="col-lg-5">
+        <div class="row justify-content-center my-4">
+            <div class="col-lg-5 mb-4">
                 <div class="card-wrapper mb-4">
-                    <div class="light-card bg-light" style="width:32rem; height:32rem;">
+                    <div class="light-card bg-light" style="width:32rem;">
                         <div class="card-header text-center" style="height: 100px; font-size: 40px;">Add new animal profile</div>
                         <div class="card-body">
                             <form action="../includes/add_animal_script.php" method="post" enctype="multipart/form-data">

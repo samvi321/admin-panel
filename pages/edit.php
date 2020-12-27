@@ -38,11 +38,11 @@
                                 <div class="row">
                                     <div class="col">
                                         <label for="password">Password</label>
-                                        <input type="password" name="password" class="form-control" value="<?php echo $row['password']; ?>" id="password" placeholder="Enter password" required>
+                                        <input type="password" name="password" class="form-control" id="password" placeholder="Enter password" required>
                                     </div>
                                     <div class="col">
                                         <label for="cpassword">Confirm Password</label>
-                                        <input type="password" name="cpassword" class="form-control" value="<?php echo $row['password']; ?>" id="cpassword" placeholder="Confirm password" required>
+                                        <input type="password" name="cpassword" class="form-control" id="cpassword" placeholder="Confirm password" required>
                                     </div>
                                 </div><br>
                                 <div class="row">
