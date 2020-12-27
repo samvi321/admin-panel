@@ -3,8 +3,8 @@
     require '../includes/connect.php';
             include '../includes/header.php';
         ?> 
-        <div class="row justify-content-center">
-            <div class="col-lg-5">
+        <div class="row justify-content-center mr-0">
+            <div class="col-lg-5 my-4">
                 <div class="card-wrapper mb-4">
                     <div class="light-card bg-light" style="width:32rem; height:32rem;">
                         <div class="card-header text-center" style="height: 100px; font-size: 40px;">Register</div>
@@ -23,6 +23,12 @@
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email</label>
                                     <input type="email" name="user" class="form-control" id="user" aria-describedby="emailHelp" placeholder="Enter email address" required>
+                                    <?php
+                                        if(isset($_SESSION['status']) && $_SESSION['status'] != ''){
+                                            echo '<small style="color:red;">'.$_SESSION['status'].'</small>';
+                                            unset($_SESSION['status']);
+                                        } 
+                                    ?>
                                 </div>
                                 <div class="row">
                                     <div class="col">
@@ -34,7 +40,7 @@
                                         <input type="password" name="cpassword" class="form-control" id="cpassword" placeholder="Confirm password" required>
                                     </div>
                                 </div><br>
-                                <button name="signup" class="btn btn-primary btn-block" id="signup">Register</button>
+                                <button name="signup" class="btn btn-block shadow" id="signup">Register</button>
                             </form>
                         </div>
                     </div>
