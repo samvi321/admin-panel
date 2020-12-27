@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <link rel="stylesheet" href="../assets/css/style.css">
-        <title>Home</title>
+        <title>Wild World</title>
     </head>
     <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbars navbar-expand-lg navbar-dark bg-dark">
     <?php
         if(isset($_SESSION['email'])){
     ?>
@@ -36,11 +36,11 @@
         ?>
                 <li class="nav-item"><a href="../pages/admin.php" class="nav-link">Admin</a></li>
                 <li class="nav-item"><a href="../pages/animal.php" class="nav-link">Animal</a></li>
-                <li class="nav-item"><a href="../pages/logout.php" class="nav-link">Plantation</a></li>
-                <li class="nav-item"><a href="../pages/logout.php" class="nav-link">Volunteers</a></li>
-                <li class="nav-item"><a href="../pages/logout.php" class="nav-link">Ambulance</a></li>
+                <li class="nav-item"><a href="../pages/plantation.php" class="nav-link">Plantation</a></li>
+                <li class="nav-item"><a href="../pages/volunteer.php" class="nav-link">Volunteers</a></li>
+                <li class="nav-item"><a href="../pages/ambulance.php" class="nav-link">Ambulance</a></li>
                 <li class="nav-item"><a href="../pages/logout.php" class="nav-link">Carousal</a></li>
-                <li class="nav-item"><a href="../pages/logout.php" class="nav-link">Logout</a></li>
+                <li class="nav-item"><a href="../pages/logout.php" class="nav-link active">Logout</a></li>
         <?php
             } 
             else {
