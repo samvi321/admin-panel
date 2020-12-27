@@ -24,11 +24,11 @@
                                     <label for="exampleInputEmail1">Email</label>
                                     <input type="email" name="user" class="form-control" id="user" aria-describedby="emailHelp" placeholder="Enter email address" required>
                                     <?php
-                    if(isset($_SESSION['status']) && $_SESSION['status'] != ''){
-                        echo '<small style="color:red;">'.$_SESSION['status'].'</small>';
-                        unset($_SESSION['status']);
-                } 
-                ?>
+                                        if(isset($_SESSION['status']) && $_SESSION['status'] != ''){
+                                            echo '<small style="color:red;">'.$_SESSION['status'].'</small>';
+                                            unset($_SESSION['status']);
+                                        } 
+                                    ?>
                                 </div>
                                 <div class="row">
                                     <div class="col">
